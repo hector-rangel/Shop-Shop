@@ -91,6 +91,6 @@ export const reducer = (initialState, action) => {
     }
 };
 
-// export function useProductReducer(initialState) {
-//     return useReducer(reducer, initialState);
-// }
+export function useProductReducer(initialState) {
+    return useReducer(reducer, initialState);
+}
